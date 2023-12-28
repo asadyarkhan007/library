@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="menu">
+                <a href="./index.html">Home</a>
+                <a href="./member.html">Member</a>
+                <a class="active" href="./book.html">Book</a>
+                <a href="./reservation.html">Reservation</a>
+                <a href="./about.html">About</a>
+            </div>
+ 
+
+            <h1> Book Page</h1>
+
+            <h2> Book Registration</h2>
+            <div>
+                <span><input type="hidden" placeholder="id" name="id"></span>
+                <span> Title:</span><span> <input type="text" placeholder="title" name="title"></span>
+                <span> Author:</span><span> <input type="text" placeholder="author" name="author"></span>
+                <span> Publisher:</span><span> <input type="text" placeholder="publisher" name="publisher"></span>
+                <span> <input type="button" onclick="save()" placeholder="Insert" value="Save Record"></span>
+            </div>
+
+            <h2> Book Records</h2>
+
+            <div id="datagrid">
+
+            </div>
+        </div>
+        <footer id="footer">
+            <p>Author: Asad Khan<br>
+                <a href="mailto:asadyakhan007@gmail.com">asadyakhan007@gmail.com</a>
+            </p>
+        </footer>
+    </div>
+    <script src="js/book.js"></script>
+    <script src="js/base.js"></script>
+</body>
+
+</html>

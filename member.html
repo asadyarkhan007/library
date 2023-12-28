@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="menu">
+                <a href="./index.html">Home</a>
+                <a class="active" href="./member.html">Member</a>
+                <a href="./book.html">Book</a>
+                <a href="./reservation.html">Reservation</a>
+                <a href="./about.html">About</a>
+            </div>
+            <!-- header end -->
+
+            <h1> Member Page</h1>
+
+            <h2> Member Registration</h2>
+            <div>
+                <span><input type="hidden" placeholder="id" name="id"></span>
+                <span> First Name:</span><span> <input type="text" placeholder="firstName" name="firstName"></span>
+                <span> Last Name:</span><span> <input type="text" placeholder="lastName" name="lastName"></span>
+                <span> Address:</span><span> <input type="text" placeholder="address" name="address"></span>
+                <span> Phone #:</span><span> <input type="text" placeholder="phone" name="phone"></span>
+                <span> <input type="button" onclick="save()" placeholder="Insert" value="Save Record"></span>
+            </div>
+
+            <h2> Member Records</h2>
+
+            <div id="datagrid">
+
+            </div>
+            <footer id="footer">
+                <p>Author: Asad Khan<br>
+                    <a href="mailto:asadyakhan007@gmail.com">asadyakhan007@gmail.com</a>
+                </p>
+            </footer>
+        </div>
+    <script src="js/member.js"></script>
+    <script src="js/base.js"></script>
+</body>
+</html>

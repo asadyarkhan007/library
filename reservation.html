@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="page-container">
+            <div id="content-wrap">
+                <div class="menu">
+            <a href="./index.html">Home</a>
+            <a href="./member.html">Member</a>
+            <a href="./book.html">Book</a>
+            <a class="active" href="./reservation.html">Reservation</a>
+            <a href="./about.html">About</a>
+        </div>
+ 
+
+        <h1> Reservation Page</h1>
+
+        <h2> Reserve Book</h2>
+        <div>
+            <span><input type="hidden" placeholder="id" name="id"></span>
+            <span> Book:</span>
+            <span> 
+                <select name="bookSelect" id="bookSelect"> 
+                    <option value="none" selected disabled hidden>Select a Book</option> 
+                </select>
+            </span>
+            <span> Member:</span>
+            <span>
+                <select name="memberSelect" id="memberSelect"> 
+                    <option value="none" selected disabled hidden>Select a Member</option> 
+                </select>
+            </span>
+            <span> From:</span><span> <input type="date" id="fromDate" name="fromDate">  </span>
+            <span> To:</span><span> <input type="date" id="toDate" name="toDate">  </span>
+
+            <span> <input type="button" onclick="save()"  placeholder="Insert" value="Reserve"></span>
+        </div>
+        
+        <h2> Reservations Records</h2>
+    
+        <div id="datagrid">
+
+        </div>
+        <footer id="footer">
+            <p>Author: Asad Khan<br>
+                <a href="mailto:asadyakhan007@gmail.com">asadyakhan007@gmail.com</a>
+            </p>
+        </footer>
+    </div>
+    <script src="js/reservation.js" ></script>
+    <script src="js/base.js" ></script>
+</body>
+</html>

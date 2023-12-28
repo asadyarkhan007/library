@@ -1,0 +1,118 @@
+.menu {
+    overflow: hidden;
+    background-color: #4c5cee;
+  }
+  
+.menu a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.images {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  border-width: 10px;  
+}
+
+.images img {
+    width: 450px;
+    height: 450px;
+}
+
+.images img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+table, td {
+    border: 1px solid;
+    table-layout: fixed;
+    width: 100%
+}
+
+th {
+    border: 1px solid;
+    height: 70px;
+  }
+
+#page-container {
+  position: relative;
+  height: 100%;
+}
+
+#content-wrap {
+  padding-bottom: 0rem;    /* Footer height */
+}
+
+
+
+#footer {
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;  
+  position:fixed;        
+}
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 10 18px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #04AA6D;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.row {
+  width:800px; 
+  margin:20px auto;
+}
